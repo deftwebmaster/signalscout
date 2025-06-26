@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignalScout Vault</title>
+
+<!-- Standard Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Apple Touch Icon (iOS) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Web Manifest (optional PWA support) -->
+<link rel="manifest" href="/site.webmanifest">
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: radial-gradient(ellipse at center, #1a1a1a 0%, #0c0c0c 100%);
+    }
+    .glow {
+      filter: drop-shadow(0 0 8px rgba(93, 188, 255, 0.6));
+    }
+    .hover-glow:hover {
+      filter: drop-shadow(0 0 12px rgba(93, 188, 255, 0.9));
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center h-screen text-white font-sans">
+
+  <div class="text-center space-y-10">
+    <!-- Logo -->
+    <img src="signalscout-vault-logo.png" alt="SignalScout Logo" class="mx-auto w-48 md:w-64 glow" />
+
+    <!-- Vault tagline -->
+    <h1 class="text-xl md:text-2xl tracking-widest uppercase text-gray-300">Digital Treasure. Scouted & Vaulted.</h1>
+
+    <!-- Call to Action -->
+    <a href="https://www.ebay.com/usr/signalscout" target="_blank" rel="noopener" class="inline-block px-6 py-3 border border-blue-400 text-blue-300 text-lg uppercase tracking-widest rounded hover-glow transition-all duration-300">
+      Enter the Vault
+    </a>
+  </div>
+
+</body>
+</html>
